@@ -2,7 +2,7 @@ package addon_dsa;
 
 import java.util.Arrays;
 
-public class Twopointers {
+public class day2task1 {
 	
 	    public static void main(String[] args) {
 	        int[] arr = {4, 2, 10, 7, 5, 3, 8};
