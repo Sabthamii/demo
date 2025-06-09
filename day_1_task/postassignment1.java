@@ -14,7 +14,7 @@ package addon_dsa;
 
 	    public static void main(String[] args) {
 	        Scanner sc = new Scanner(System.in);
-	        System.out.print("Enter a positive integer: ");
+	        System.out.print("Enter a num: ");
 	        int number = sc.nextInt();
 	        int result = sumDigits(number);
 	        System.out.println("Sum of digits: " + result);
