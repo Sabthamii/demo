@@ -44,8 +44,7 @@ package addon_dsa;
 	                System.out.println("Invalid choice. Try again.");
 	        }
 
-	        // Recursive call
-	        menu(sc);
+	       	        menu(sc);
 	    }
 
 	    public static void insertElement(Scanner sc) {
