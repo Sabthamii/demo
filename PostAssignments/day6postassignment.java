@@ -1,18 +1,16 @@
 package addon_dsa;
 
 public class day6postassignment {
-	// Simple stack using singly linked list in Java
-	class Stack {
-	    // Node class for linked list
+	
 	    class Node {
 	        int data;
 	        Node next;
 	    }
 
-	    // Top of stack
+	 
 	    Node top = null;
 
-	    // Push an element onto the stack
+	   
 	    void push(int value) {
 	        Node newNode = new Node();
 	        newNode.data = value;
@@ -21,7 +19,7 @@ public class day6postassignment {
 	        System.out.println(value + " pushed to stack");
 	    }
 
-	    // Pop an element from the stack
+	    
 	    void pop() {
 	        if (top == null) {
 	            System.out.println("Stack is empty");
@@ -31,7 +29,7 @@ public class day6postassignment {
 	        }
 	    }
 
-	    // Display the stack
+	   
 	    void display() {
 	        if (top == null) {
 	            System.out.println("Stack is empty");
@@ -46,16 +44,16 @@ public class day6postassignment {
 	        }
 	    }
 
-	    // Main method to test stack
+	    
 	    public static void main(String[] args) {
-	        Stack s = new Stack();
+	    	day6postassignment s = new day6postassignment();
 	        s.push(10);
 	        s.push(20);
 	        s.push(30);
-	        s.display();  // Output: Stack: 30 20 10
-	        s.pop();      // Output: 30 popped from stack
-	        s.display();  // Output: Stack: 20 10
+	        s.display();  
+	        s.pop();     
+	        s.display();  
 	    }
 	}
 
-}
+
