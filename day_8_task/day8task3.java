@@ -1,4 +1,9 @@
-package addon_day8;
+package addon_dsa;
+
+public class day8task3 {
+
+
+	
 
 public class Task3 {
     public static int search(int[] nums, int target) {
@@ -43,5 +48,4 @@ public class Task3 {
     }
 }
 
-
-
+}

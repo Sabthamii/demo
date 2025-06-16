@@ -1,9 +1,13 @@
-package addon_day8;
-
+package addon_dsa;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task2 {
+
+
+public class day8task2 {
+
+
+
 
     public static boolean binarySearch(int[] a, int start, int end, int key) {
         if (start > end) {
@@ -48,3 +52,6 @@ public class Task2 {
         s.close();
     }
 }
+
+
+
